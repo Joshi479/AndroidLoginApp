@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Create an account"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:id="@+id/txtCreate"
+        android:gravity="center"
+        android:textColor="@android:color/hot_dark_blue"
+        android:textSize="50px"
+        android:textStyle="bold" />
+    <Button
+        android:text="Sign In"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textSize="40px"
+        android:id="@+id/btnSignIn" />
+    <TextView
+        android:text="Or"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:textSize="30px"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/txtOr" />
+    <Button
+        android:text="Sign up with Gmail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:textSize="40px"
+        android:id="@+id/btnSignUp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30" />
+</LinearLayout>
